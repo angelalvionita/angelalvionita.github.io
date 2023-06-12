@@ -2,315 +2,80 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-  body {
-    background-color: #F7C441;
-    font-family: Poppins, sans-serif;
-  }
-
-  section {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-</style>
 
 <body>
-  <div class="all">
-    <header>
-      <a href="#" class="logo">Angel Alvionita Felisia</a>
-      <div class="bx bx-angel" id="logo-icon"></div>
-
-      <ul class="navbar">
-        <li><a href="#home"></a></li>
-        <li><a href="#intro">Introduction</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#photography">Photography</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <style>
-        .all {
-          max-width: 1200px;
-          margin: auto;
-        }
-
-        header {
-          position: fixed;
-          top: 0;
-          right: 0;
-          width: 100%;
-          z-index: 1000;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 20px 20px;
-          background-color: #F7C441;
-        }
-
-        ul {
-          float: right;
-          list-style: none;
-          justify-content: end;
-          margin-right: 0px;
-          font-weight: 600;
-          font-size: 22px;
-          padding-left: 0px;
-        }
-
-        li {
-          display: inline;
-          padding-right: 48px;
-          z-index: 500;
-          list-style-type: none;
-        }
-
-        a {
-          color: #000000;
-          text-decoration: none;
-        }
-
-        .logo {
-          color: black;
-          font-weight: 600;
-          font-size: 32px;
-          padding-left: 50px;
-          padding-right: 20px;
-          display: inline;
-        }
-      </style>
-    </header>
-
-    <section class="home" id="home">
-      <h1><b>Portfolio.</b></h1>
-      <div class="garis" style="border-top: 5px solid #000;"></div>
-      <style>
-        .home h1 {
-          text-align: center;
-          margin: 240px;
-          font-size: 50px;
-          padding-top: 20px;
-          padding-bottom: 20px;
-        }
-      </style>
-    </section>
-
-    <section class="intro" id="intro">
-      <div class="row">
-        <div class="col-sm-3">
-          <img src="angel.png" alt="">
+    <div class="container">
+        <div class="flex">
+            <h1 class="title">Angel Alvionita Felisia</h1>
+            <div class="bar">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
-        <div class="col-sm-9">
-          <h1>
-            Intr<br>
-            oduc<br>
-            tion.
-          </h1>
-          <br><br>
-          <h2> Hi!<br>
-            I'M ANGEL ALVIONITA FELISIA
-          </h2>
-          <h4> I'M A BAKER/PATTISIER</h4>
-          <p>
-            I am a highly motivated person equipped with integrity and goals.<br>
-            I'm a person who turns food into hapiness.<br>
-            Happiness is the smell of freshly baked bread!
-          </p>
-          <a href="CV_Angel Alvionita Felisia.pdf">Download CV</a><br><br>
-        </div>
-      </div>
-      <div class="garis" style="border-top: 5px solid #000;"></div>
-      <style>
-        .row {
-          display: flex;
-        }
-
-        .intro img {
-          width: 480px;
-
-        }
-
-        .intro .col-sm-9 {
-          padding-left: 120px;
-          padding-top: 120px;
-        }
-
-        .intro h1 {
-          text-align: left;
-          font-size: 42px;
-          display: inline;
-        }
-
-        .intro a {
-          margin-top: 20px;
-          width: 150px;
-          height: 50px;
-          background-color: black;
-          color: white;
-          border: none;
-          border-radius: 5px;
-          font-size: 15px;
-          text-align: center;
-          padding: 10px;
-        }
-      </style>
-    </section>
-
-    <section class="about" id="about">
-      <div class="row-abt">
-        <div class="col-sm">
-          <h1>Education</h1>
-          <span>2018 - 2021</span>
-          <span class="details-bold">St. Fransiskus Asisi Senior Highschool</span>
-          <span>Natural Sciences Major</span><br>
-          <span>2021 - 2025</span>
-          <span class="details-bold">Widya Dharma University</span>
-          <span>Bachelor of Digital Business</span>
-          <br>
-          <br>
-          <h1>Languange</h1>
-          <span>Bahasa Indonesia</span><br>
-          <span>English</span><br>
-          <span>Mandarin</span>
-        </div>
-
-        <div class="col-sm">
-          <h2>Skills</h2>
-          <span>Communication</span><br>
-          <span>Team Work</span><br>
-          <span>Leadership</span><br>
-          <span>Kitchen Management</span><br>
-          <span>Food Cost Management and Control</span>
-
-          <h2>Services</h2>
-          <div class="services-list">
-            <div>
-              <img src="cake.jpg" alt="">
-              <span>Catering for a Large Event</span>
+        <div class="all">
+            <div class="intro">
+                <h1 class="superbig">Portfolio.</h1>
             </div>
 
-            <div>
-              <img src="cupcake.jpg" alt="">
-              <span>Celebrations and Smaller Occasions</span>
+            <div id="about">
+                <div class="profil">
+                    <img src="profile.png" alt="profile pic">
+                    <div class="hi">
+                        <h1>HI!<br>
+                            I'M ANGEL ALVIONITA FELISIA</h1>
+                        <p>i'm a graphic designer. i'm a highly motivated<br>
+                            person equipped with integrity and goals.<br>
+                            along with baking and photography, I enjoy<br>
+                            working out,baking, photography, traveling,<br>
+                            and reading. i also enjoy watching movies.
+                        </p> <br>
+                        <a href="CV_Angel Alvionita Felisia.pdf">Download CV</a>
+                    </div>
+                </div>
             </div>
 
-            <div>
-              <img src="cookiess.jpg" alt="">
-              <span>Custom Orders</span>
+            <div id="skills">
+                <div>
+                    <h1 class="big">My-Skills</h1>
+                    <img src="Skill1.png" alt="skill 1"><br><br>
+                    <img src="Skill2.png" alt="skill 2">
+                </div>
             </div>
-          </div>
+
+            <div id="projects">
+                <div>
+                    <h1 class="big">Recent-Projects.</h1>
+                    <img src="project.png" alt="project">
+                </div>
+            </div>
+
+            <div id="contact">
+                <h1 class="big">Contact-Me.</h1>
+                <div class="call">
+                    <div>
+                        <a href="https://github.com/angelalvionita">
+                            <img src="github.png" alt="github">
+                        </a>
+                        <a href="mailto:angelalvionta@gmail.com">
+                            <img src="email.png" alt="email">
+                        </a>
+                        <a href="https://www.linkedin.com/in/angel-alvionita-felisia-31a5a2210/">
+                            <img src="linkedin.png" alt="linkedin">
+                        </a>
+                        <a href="https://www.instagram.com/af.aangel">
+                            <img src="instagram.png" alt="ig">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="garis" style="border-top: 5px solid #000;"></div>
-      <style>
-        .row-abt {
-          display: flex;
-          column-gap: 100px;
-        }
-
-        .about .col-sm {
-          padding-top: 30px;
-        }
-
-        .soft-skills img {
-          width: 100px;
-        }
-
-        .col-sm img {
-          width: 60px;
-        }
-      </style>
-    </section>
-
-    <section class="photography" id="photography">
-      <h1>Photo-<br>
-        graphy.</h1>
-      <br>
-      <div class="image-prj">
-        <div>
-          <img src="garlicbun.jpg" alt="">
-          <p>Korean Garlic Bun</p>
-          <img src="eggtart.jpg" alt="">
-          <p>Egg Tart</p>
-        </div>
-        <div>
-          <img src="millefeuille.jpg" alt="">
-          <p>Mille Feuille</p>
-          <img src="eclair.jpg" alt="">
-          <p>Eclair</p>
-        </div>
-        <div>
-          <img src="bdaycake.jpg" alt="">
-          <p>Fresh Cream Cake</p>
-          <img src="bento.jpg" alt="">
-          <p>Korean Bento Cake</p>
-        </div>
-      </div>
-      <style>
-        .photography {
-          width: max-content;
-          margin: auto;
-        }
-
-        .image-prj {
-          display: flex;
-          padding: 20px;
-          column-gap: 30px;
-        }
-
-        .image-prj img {
-          width: 100px;
-          height: 160px;
-          object-fit: cover;
-
-
-        }
-      </style>
-    </section>
-    <div class="garis" style="border-top: 5px solid #000;"></div>
-    <section class="contact" id="contact">
-      <h1>Contact Me</h1>
-      <p>You can contact me through the social media below!</p>
-      <div class="contact-li">
-        <a href="mailto:21430069_angel_a_f@widyadharma.ac.id">Email</a>
-        <a href="https://www.instagram.com/af.aangel/">Instagram</a>
-        <a href="https://www.linkedin.com/in/angel-alvionita-felisia-31a5a2210//">LinkedIn</a>
-        <a href="https://github.com/angelalvionita">Github</a>
-      </div>
-      <style>
-        .contact a {
-          background-color: black;
-          color: white;
-          border-radius: 5px;
-          font-size: 15px;
-          text-align: center;
-          padding: 10px;
-          margin-right: 10px;
-        }
-
-        .contact {
-          width: max-content;
-          margin: auto;
-        }
-      </style>
-    </section>
-  </div>
+    </div>
 </body>
-
 </html>
